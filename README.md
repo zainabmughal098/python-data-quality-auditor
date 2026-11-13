@@ -1,6 +1,23 @@
 # CSV Data Quality Auditor — Version 2
 
 A read-only Python CLI demonstrated and tested with synthetic records. V2 preserves existing CLI flags, CSV issue columns, JSON metrics, and Markdown reporting. It adds JSON validation rules, exact date validation, allowed-value checks, a transparent quality score, and a formatted Excel workbook. Saved reports in `example_output/` remain the original V1 examples.
+## Example Audit Report
+
+The following Excel report was generated using a fully synthetic dataset containing 10,000 records.
+
+![Data Quality Auditor Excel Summary](screenshots/summary.png)
+
+### Demonstration Results
+
+- **10,000** records audited
+- **905** validation issues identified
+- **897** affected records
+- **91.03/100** configured-rule compliance score
+- **24 automated tests passed**
+
+The quality score measures compliance with configured validation rules, not absolute data correctness.
+
+---
 
 ## Installation
 
