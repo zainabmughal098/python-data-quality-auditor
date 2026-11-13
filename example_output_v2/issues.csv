@@ -1,0 +1,14 @@
+csv_line,column,issue,value
+3,email,invalid_email_format,invalid-email
+3,amount,invalid_numeric,NaN
+3,joined_on,invalid_date_format,2023-02-29
+3,status,allowed_value_violation,pending
+4,*,duplicate_row,
+4,email,invalid_email_format,invalid-email
+4,amount,invalid_numeric,NaN
+4,joined_on,invalid_date_format,2023-02-29
+4,status,allowed_value_violation,pending
+4,customer_id,duplicate_key,S002
+5,email,missing_required,
+5,joined_on,invalid_date_format,2024-2-09
+7,amount,missing_required,

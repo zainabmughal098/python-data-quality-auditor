@@ -1,0 +1,8 @@
+customer_id,name,email,amount
+101,Alice,alice@example.com,120.50
+102,Bob,bob@example.com,75
+103,Charlie,invalid-email,abc
+104,Dana,,200
+102,Bob,bob@example.com,75
+105,Eva,eva@example.com,NaN
+106,Frank,frank@example.com,

@@ -1,0 +1,7 @@
+customer_id,name,email,amount,joined_on,status
+S001,Alex Example,alex@example.com,125.50,2024-02-29,active
+S002,Blair Example,invalid-email,NaN,2023-02-29,pending
+S002,Blair Example,invalid-email,NaN,2023-02-29,pending
+S003,Casey Example,,42,2024-2-09,inactive
+S004,Dana Example,dana@example.com,-10,2024-12-31,active
+S005,Emery Example,emery@example.com,,2024-01-15,inactive

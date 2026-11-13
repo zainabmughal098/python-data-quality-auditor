@@ -1,0 +1,7 @@
+{
+  "required": ["customer_id", "name", "email"],
+  "unique": ["customer_id"],
+  "numeric": ["amount"],
+  "dates": {},
+  "allowed_values": {}
+}

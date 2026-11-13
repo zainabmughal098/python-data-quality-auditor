@@ -1,0 +1,145 @@
+{
+  "file": "v2_synthetic.csv",
+  "source_path": "F:\\data_audit_portfolio\\examples\\v2_synthetic.csv",
+  "rows": 6,
+  "columns": [
+    "customer_id",
+    "name",
+    "email",
+    "amount",
+    "joined_on",
+    "status"
+  ],
+  "missing_by_column": {
+    "email": 1,
+    "amount": 1
+  },
+  "invalid_numeric_by_column": {
+    "amount": 2
+  },
+  "invalid_email_by_column": {
+    "email": 2
+  },
+  "duplicate_rows": 1,
+  "duplicate_keys": 1,
+  "issues": [
+    {
+      "csv_line": 3,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 3,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 3,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 3,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 4,
+      "column": "*",
+      "issue": "duplicate_row",
+      "value": ""
+    },
+    {
+      "csv_line": 4,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 4,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 4,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 4,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 4,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "S002"
+    },
+    {
+      "csv_line": 5,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 7,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    }
+  ],
+  "issue_count": 13,
+  "version": "2.0.0",
+  "rules": {
+    "required": [
+      "customer_id",
+      "name",
+      "email",
+      "amount",
+      "joined_on",
+      "status"
+    ],
+    "unique": [
+      "customer_id"
+    ],
+    "numeric": [
+      "amount"
+    ],
+    "dates": {
+      "joined_on": "%Y-%m-%d"
+    },
+    "allowed_values": {
+      "status": [
+        "active",
+        "inactive"
+      ]
+    }
+  },
+  "invalid_date_by_column": {
+    "joined_on": 3
+  },
+  "allowed_value_violations_by_column": {
+    "status": 2
+  },
+  "quality_score": {
+    "score": 33.33,
+    "total_rows": 6,
+    "affected_rows": 4,
+    "passing_rows": 2,
+    "formula": "round(100 * (total_rows - affected_rows) / total_rows, 2); 100 for zero rows"
+  }
+}

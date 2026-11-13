@@ -1,0 +1,61 @@
+{
+  "file": "customers.csv",
+  "rows": 7,
+  "columns": [
+    "customer_id",
+    "name",
+    "email",
+    "amount"
+  ],
+  "missing_by_column": {
+    "email": 1,
+    "amount": 1
+  },
+  "invalid_numeric_by_column": {
+    "amount": 2
+  },
+  "invalid_email_by_column": {
+    "email": 1
+  },
+  "duplicate_rows": 1,
+  "duplicate_keys": 1,
+  "issues": [
+    {
+      "csv_line": 4,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 4,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "abc"
+    },
+    {
+      "csv_line": 5,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6,
+      "column": "*",
+      "issue": "duplicate_row",
+      "value": ""
+    },
+    {
+      "csv_line": 6,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "102"
+    },
+    {
+      "csv_line": 7,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    }
+  ],
+  "issue_count": 6
+}

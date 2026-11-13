@@ -1,0 +1,77 @@
+{
+  "recorded_at_utc": "2026-11-13T17:17:57.714669+00:00",
+  "python": "3.13.15",
+  "openpyxl": "3.1.5",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "dataset": "examples/portfolio_10000.csv",
+  "rows": 10000,
+  "seed": 20261113,
+  "source_sha256": "6a36a7c073ef8d6a1ceaf6a66936d4df0c42105783e1ba6db4cf813d1c2808de",
+  "command": [
+    "python",
+    "audit.py",
+    "examples/portfolio_10000.csv",
+    "--config",
+    "examples/portfolio_rules.json",
+    "--output",
+    "portfolio_reports"
+  ],
+  "exit_code": 0,
+  "cli_stdout": "Audited 10000 rows; found 905 issue records. Reports: portfolio_reports",
+  "elapsed_seconds": 1.4596606998238713,
+  "timing_scope": "One wall-clock CLI subprocess run including interpreter startup and all four report writes; excludes dataset generation and verification. Not a benchmark distribution.",
+  "issue_count": 905,
+  "issues_by_type": {
+    "allowed_value_violation": 126,
+    "duplicate_key": 103,
+    "invalid_date_format": 120,
+    "invalid_email_format": 55,
+    "invalid_numeric": 112,
+    "missing_required": 389
+  },
+  "missing_by_column": {
+    "email": 88,
+    "amount": 78,
+    "name": 76,
+    "joined_on": 67,
+    "status": 61,
+    "customer_id": 19
+  },
+  "quality_score": {
+    "score": 91.03,
+    "total_rows": 10000,
+    "affected_rows": 897,
+    "passing_rows": 9103,
+    "formula": "round(100 * (total_rows - affected_rows) / total_rows, 2); 100 for zero rows"
+  },
+  "workbook_dimensions": {
+    "Summary": "A1:B13",
+    "Columns": "A1:F7",
+    "Issues": "A1:D906",
+    "Rules": "A1:B6"
+  },
+  "executable_formula_cells": 0,
+  "stored_score_value_verified": true,
+  "all_issue_records_match_csv_json_xlsx": true,
+  "injection_plan_matches_report": true,
+  "source_and_rules_unchanged": true,
+  "visual_excel_rendering_verified": false,
+  "outputs": {
+    "summary.json": {
+      "bytes": 118132,
+      "sha256": "4e289c29e1f36b1de69062c49850f2f5420eba8709c1ba9a44bb01cac4cab91a"
+    },
+    "issues.csv": {
+      "bytes": 34488,
+      "sha256": "2f2c41b7594a26dc19cd27dba5a99703a339a28fca2a7f9fddfc43080ac65f34"
+    },
+    "report.md": {
+      "bytes": 1586,
+      "sha256": "459a1939ca724dcf83bd86d99a950dd57b76e152d6c37c59463bb6682d178f61"
+    },
+    "report.xlsx": {
+      "bytes": 28668,
+      "sha256": "689a2062b8caa8e76fc8f33f71f893b478100554a29c4edc39a841908374a494"
+    }
+  }
+}

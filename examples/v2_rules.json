@@ -1,0 +1,7 @@
+{
+  "required": ["customer_id", "name", "email", "amount", "joined_on", "status"],
+  "unique": ["customer_id"],
+  "numeric": ["amount"],
+  "dates": {"joined_on": "%Y-%m-%d"},
+  "allowed_values": {"status": ["active", "inactive"]}
+}

@@ -1,0 +1,7 @@
+csv_line,column,issue,value
+4,email,invalid_email_format,invalid-email
+4,amount,invalid_numeric,abc
+5,email,missing_required,
+6,*,duplicate_row,
+6,customer_id,duplicate_key,102
+7,amount,invalid_numeric,NaN

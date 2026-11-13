@@ -1,0 +1,5501 @@
+{
+  "file": "portfolio_10000.csv",
+  "source_path": "F:\\data_audit_portfolio\\examples\\portfolio_10000.csv",
+  "rows": 10000,
+  "columns": [
+    "customer_id",
+    "name",
+    "email",
+    "amount",
+    "joined_on",
+    "status"
+  ],
+  "missing_by_column": {
+    "email": 88,
+    "amount": 78,
+    "name": 76,
+    "joined_on": 67,
+    "status": 61,
+    "customer_id": 19
+  },
+  "invalid_numeric_by_column": {
+    "amount": 112
+  },
+  "invalid_email_by_column": {
+    "email": 55
+  },
+  "duplicate_rows": 0,
+  "duplicate_keys": 103,
+  "issues": [
+    {
+      "csv_line": 80,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 84,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 90,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 98,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 114,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 128,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 132,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 150,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 159,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 164,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 167,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 179,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 182,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 195,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 227,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 238,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 250,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 255,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 263,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 268,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 292,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 299,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 317,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 327,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 333,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 340,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 357,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 363,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 382,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 389,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 394,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 396,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 416,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 446,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 448,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 453,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 475,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 486,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 490,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 499,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 504,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 509,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 525,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 535,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 544,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 554,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 566,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 582,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 583,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 597,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 624,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 633,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 636,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 653,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 656,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 665,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 679,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 680,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 712,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 713,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 725,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 746,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 748,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 763,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 777,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 787,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 791,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 792,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 802,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 816,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 831,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 870,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 874,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 890,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 891,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 895,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 905,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 906,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 914,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 918,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 949,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 971,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 979,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 980,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 997,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 1007,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1017,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1018,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1028,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 1044,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1049,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1068,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 1069,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 1080,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 1087,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 1107,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 1131,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1142,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1144,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1158,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 1163,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 1165,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 1180,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1186,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 1193,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1244,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1246,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 1247,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 1262,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 1265,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 1268,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 1271,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1305,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1311,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1329,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 1336,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 1342,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1344,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 1357,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1359,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 1398,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1412,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 1423,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 1425,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 1442,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1449,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 1456,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 1468,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1470,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1491,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1495,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 1502,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 1510,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1514,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 1525,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1553,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 1573,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1578,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 1581,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 1583,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1603,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 1630,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 1631,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1640,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1650,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 1652,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1660,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 1661,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 1692,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 1696,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1704,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1739,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 1744,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 1747,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 1779,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1781,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 1789,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1794,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1809,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1811,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 1818,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 1827,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 1835,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1844,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 1870,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 1897,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 1906,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1910,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 1922,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1938,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1941,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 1957,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1959,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 1966,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 1976,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 1992,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 1993,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 2013,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2033,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2035,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2038,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 2048,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 2055,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 2076,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 2087,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2097,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2120,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2134,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 2135,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 2137,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 2148,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2159,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 2160,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2173,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 2213,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 2226,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 2228,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2232,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 2236,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2242,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 2261,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2283,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2287,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2292,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 2315,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 2325,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 2329,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 2354,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 2359,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2371,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 2374,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2385,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2404,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 2408,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 2414,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2426,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 2446,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2450,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 2487,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2490,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2491,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 2493,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 2516,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2523,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 2529,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 2534,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2535,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 2541,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2574,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 2582,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 2600,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2608,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 2609,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2620,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 2621,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2657,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 2668,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2671,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 2683,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2687,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 2713,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2716,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 2717,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 2740,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 2752,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2760,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 2766,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 2772,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2795,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2814,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 2823,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 2826,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2832,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2845,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 2849,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 2883,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2897,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 2906,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 2911,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 2922,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2924,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 2935,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2938,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 2939,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2981,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 2989,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 3003,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 3008,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 3014,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3019,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3027,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 3049,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3052,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3072,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 3078,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 3082,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 3098,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3105,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 3116,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 3130,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3145,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3155,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 3161,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 3165,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3176,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3202,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 3205,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 3238,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 3240,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 3259,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 3261,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3276,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3278,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3279,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3294,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 3299,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 3303,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3319,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 3321,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 3383,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 3391,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3396,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 3398,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 3404,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 3407,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3424,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3428,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3430,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3440,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 3472,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 3477,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 3487,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 3493,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 3504,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3522,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3538,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3556,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 3557,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3561,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 3570,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 3577,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3587,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3590,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 3617,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3621,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 3635,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 3650,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 3653,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 3669,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3684,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3687,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 3714,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 3726,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3730,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3736,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 3739,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 3750,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3784,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 3793,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 3800,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3802,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 3811,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3819,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 3828,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 3843,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3872,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 3875,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3881,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 3902,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 3913,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3917,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 3931,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3938,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3951,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 3956,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 3978,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 3983,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 3985,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 4006,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 4024,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4025,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4030,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 4062,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4065,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4068,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 4069,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4075,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 4076,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4095,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 4109,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 4151,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 4164,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 4172,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 4173,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4182,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4184,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 4188,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 4192,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4193,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4234,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 4239,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4267,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 4269,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 4273,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 4295,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4317,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 4319,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4322,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4324,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4345,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 4346,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 4362,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 4366,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 4400,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 4402,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4408,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4425,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 4446,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4451,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 4455,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4463,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 4471,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4483,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 4504,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 4521,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4526,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 4528,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4540,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 4560,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 4565,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4566,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 4573,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4583,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 4586,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4620,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4629,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 4634,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4649,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 4657,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 4662,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 4700,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4707,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 4717,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4718,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 4728,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4732,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 4741,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 4747,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4754,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 4769,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4807,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 4815,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 4820,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 4827,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4848,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4851,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 4860,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4888,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 4891,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4896,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 4898,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 4899,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 4918,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4948,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 4954,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4973,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4978,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 4979,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 4981,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 4985,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 5031,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5045,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 5054,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5057,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 5064,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 5067,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5069,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 5074,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 5081,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5086,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5110,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5136,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 5142,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 5147,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 5163,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 5199,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5208,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5215,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 5216,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5217,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5230,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 5239,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 5241,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5250,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 5252,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 5294,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 5312,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5313,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 5335,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5336,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 5341,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 5365,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5372,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5373,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 5380,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5396,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 5425,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5430,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 5431,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 5433,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 5452,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 5462,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5479,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 5503,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5514,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5519,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 5530,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 5531,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 5534,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5538,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5543,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5562,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 5589,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5608,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 5610,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 5612,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 5627,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 5634,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5645,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 5651,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5663,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5689,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 5697,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 5706,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5716,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5724,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 5728,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 5764,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5765,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5768,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 5786,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 5793,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 5811,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 5812,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5821,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 5843,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5847,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 5869,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5875,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 5877,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5894,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 5896,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5918,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 5926,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 5961,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5964,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 5970,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 5974,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 5977,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 5990,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6005,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 6015,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 6027,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6032,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6037,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6053,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 6060,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 6084,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 6097,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6103,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6110,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6112,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 6142,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 6143,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 6155,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 6158,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6163,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 6195,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6209,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 6216,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6224,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6226,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 6231,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 6242,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 6259,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6289,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6306,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 6309,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 6320,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 6321,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 6329,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6336,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 6351,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6358,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6392,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 6400,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 6403,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 6408,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6409,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 6420,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6442,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6475,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 6478,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6479,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 6498,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 6500,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 6517,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 6521,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6540,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6551,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6555,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6557,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6558,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 6558,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 6587,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 6597,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 6605,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6637,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 6641,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 6668,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6676,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 6682,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6684,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6694,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 6698,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 6706,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6716,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 6724,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 6732,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6765,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 6781,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6791,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 6795,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 6807,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 6813,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6847,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6854,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 6855,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6859,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6874,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 6879,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 6888,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 6890,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 6894,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6943,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 6944,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 6953,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 6973,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 6985,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 6986,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7004,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7007,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7010,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7032,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 7032,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 7043,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7056,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 7060,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 7075,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7082,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 7111,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 7113,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7120,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7121,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 7139,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 7153,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7173,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7179,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 7190,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 7206,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7210,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 7222,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 7233,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7240,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7241,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 7269,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 7276,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 7299,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 7302,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7305,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 7336,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7337,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7346,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7348,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 7367,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7373,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 7388,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 7388,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 7422,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 7427,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 7451,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7459,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7468,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7470,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 7471,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 7477,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 7494,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7499,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7506,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 7546,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7554,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 7566,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 7567,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 7572,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7585,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 7599,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7600,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7603,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 7621,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7637,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 7655,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 7662,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7664,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 7664,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 7685,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7720,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 7730,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7743,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 7744,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 7748,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7749,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7761,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 7784,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 7798,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7803,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 7822,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 7825,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7833,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 7858,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 7861,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7875,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7886,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 7898,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7901,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 7911,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7922,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 7955,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 7965,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 7969,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 7980,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 7988,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 7992,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8002,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8011,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 8024,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8047,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8049,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8052,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 8052,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 8059,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 8100,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 8123,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8129,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8135,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 8137,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8138,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 8146,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 8149,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 8151,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8189,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 8196,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8217,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 8218,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 8246,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 8250,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8254,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8256,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8278,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 8296,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 8301,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 8314,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8327,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 8343,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 8345,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8363,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8367,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 8375,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 8383,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8384,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 8385,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8440,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 8454,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 8456,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 8467,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 8476,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8477,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8494,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8508,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 8510,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8516,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8533,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 8537,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 8545,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 8550,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 8552,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8589,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8612,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 8633,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 8634,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 8634,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 8637,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8640,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8643,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8647,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8689,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 8691,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 8702,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8716,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 8723,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 8731,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 8764,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8770,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 8778,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8792,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8799,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 8803,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8812,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 8815,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8828,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 8849,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 8870,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 8882,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 8891,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8901,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 8909,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8925,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 8928,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8928,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 8941,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8965,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 8966,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 8990,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 9007,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 9018,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9022,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 9040,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9041,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9048,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 9051,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 9055,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9079,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 9086,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 9090,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9119,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 9129,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9131,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 9145,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9154,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9165,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 9168,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 9171,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9214,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 9216,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 9232,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 9239,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9244,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 9257,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 9267,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9272,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9292,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9297,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 9302,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9313,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 9323,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 9346,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 9380,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9380,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 9388,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9399,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9402,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 9410,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 9413,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 9433,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9435,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 9455,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9463,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 9481,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 9493,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9507,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 9524,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 9526,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9537,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9546,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 9558,
+      "column": "customer_id",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9560,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 9564,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9594,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 9604,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 9606,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9613,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 9618,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9629,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 9639,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 9653,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9686,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9695,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9701,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 9702,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "Infinity"
+    },
+    {
+      "csv_line": 9712,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-13-01"
+    },
+    {
+      "csv_line": 9718,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 9719,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9775,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 9780,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9781,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9791,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "not-a-number"
+    },
+    {
+      "csv_line": 9795,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "31/12/2024"
+    },
+    {
+      "csv_line": 9797,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "ACTIVE"
+    },
+    {
+      "csv_line": 9798,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 9826,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9832,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9835,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9876,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "unknown"
+    },
+    {
+      "csv_line": 9878,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2024-2-09"
+    },
+    {
+      "csv_line": 9880,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "1,234.56"
+    },
+    {
+      "csv_line": 9895,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    },
+    {
+      "csv_line": 9907,
+      "column": "amount",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9944,
+      "column": "status",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9945,
+      "column": "email",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9955,
+      "column": "status",
+      "issue": "allowed_value_violation",
+      "value": "pending"
+    },
+    {
+      "csv_line": 9956,
+      "column": "email",
+      "issue": "invalid_email_format",
+      "value": "invalid-email"
+    },
+    {
+      "csv_line": 9957,
+      "column": "name",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9961,
+      "column": "joined_on",
+      "issue": "invalid_date_format",
+      "value": "2023-02-29"
+    },
+    {
+      "csv_line": 9969,
+      "column": "amount",
+      "issue": "invalid_numeric",
+      "value": "NaN"
+    },
+    {
+      "csv_line": 9984,
+      "column": "joined_on",
+      "issue": "missing_required",
+      "value": ""
+    },
+    {
+      "csv_line": 9992,
+      "column": "customer_id",
+      "issue": "duplicate_key",
+      "value": "SYN000001"
+    }
+  ],
+  "issue_count": 905,
+  "version": "2.0.0",
+  "rules": {
+    "required": [
+      "customer_id",
+      "name",
+      "email",
+      "amount",
+      "joined_on",
+      "status"
+    ],
+    "unique": [
+      "customer_id"
+    ],
+    "numeric": [
+      "amount"
+    ],
+    "dates": {
+      "joined_on": "%Y-%m-%d"
+    },
+    "allowed_values": {
+      "status": [
+        "active",
+        "inactive"
+      ]
+    }
+  },
+  "invalid_date_by_column": {
+    "joined_on": 120
+  },
+  "allowed_value_violations_by_column": {
+    "status": 126
+  },
+  "quality_score": {
+    "score": 91.03,
+    "total_rows": 10000,
+    "affected_rows": 897,
+    "passing_rows": 9103,
+    "formula": "round(100 * (total_rows - affected_rows) / total_rows, 2); 100 for zero rows"
+  }
+}

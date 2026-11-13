@@ -1,0 +1,36 @@
+.venv/
+__pycache__/
+*.py[cod]
+output/
+output_v2/
+
+# Temporary files and tool caches
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+~$*
+.tmp/
+tmp/
+temp/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local configuration and credentials; keep reviewed templates shareable
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+credentials*.json
+secrets.json
+secrets*.json
+.aws/
+.ssh/
+.codex/
